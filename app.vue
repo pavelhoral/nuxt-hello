@@ -6,7 +6,7 @@ const date = new Date();
 
 <template>
   <div>
-    <h1>Hello World &ndash; {{ date.toLocaleString() }}</h1>
+    <h1>Ahoj Světe &ndash; {{ date.toLocaleString() }}</h1>
     <pre v-if="!pending">{{ JSON.stringify(data, null, '  ') }}</pre>
   </div>
 </template>
